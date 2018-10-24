@@ -1,0 +1,14 @@
+Var
+   comprimento,largura,area,iluminacao:real
+
+Inicio
+      escreva("comprimento:")
+      leia(comprimento)
+      escreva("largura:")
+      leia(largura)
+area<-comprimento*largura
+iluminacao <- area*12
+escreva("iluminacao necessaria=",iluminacao,"w")
+
+
+Fimalgoritmo
