@@ -1,0 +1,24 @@
+Algoritmo "saldo"
+
+Var
+  saldo,credito:real
+
+Inicio
+  escreva("saldo medio:")
+  leia(saldo)
+  se(saldo>=0) e (saldo<=200) entao
+      escreva("nenhum credito")
+      credito<-0
+  fimse
+  se(saldo>=201) e (saldo<=400)entao
+      credito<-saldo * 0.2
+  fimse
+  se(saldo>=401) e (saldo <= 600) entao
+      credito<-saldo*0.3
+  fimse
+  se(saldo>=601)entao
+      credito<-saldo*0.4
+  fimse
+  escreva("credito=",credito)
+  
+Fimalgoritmo
