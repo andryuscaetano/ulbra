@@ -1,0 +1,32 @@
+Algoritmo "camiseta"
+
+Var
+  cor,sexo:caractere
+
+Inicio
+      escreva("cor da camiseta:")
+      leia(cor)
+      se(cor="rosa")entao
+         escreva("R$20,00")
+      senao
+         se(cor="azul")entao
+            escreva("R$30,00")
+         senao
+            se(cor="preta")entao
+               escreva("sexo(f/m)?")
+               leia(sexo)
+               se(sexo="f")entao
+                  escreva("R$10,00")
+               senao
+                  escreva("R$15,00")
+               fimse
+               senao
+                  se(cor="laranja")entao
+                     escreva("R$25,00")
+                  senao
+                     escreva("R$45,00")
+                     fimse
+                  fimse
+                 fimse
+               fimse
+Fimalgoritmo
