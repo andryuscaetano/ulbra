@@ -1,0 +1,25 @@
+Algoritmo "peso"
+
+Var
+  altura,peso:real
+
+Inicio
+      escreva("peso:")
+      leia(peso)
+      escreva("altura:")
+      leia(altura)
+      se (altura>= 1.75) e (altura <=1.9)entao
+         se (peso>= 70) e (peso <=80) entao
+            escreva("totalmente aceito;")
+      senao
+            escreva("recusado por peso;")
+         fimse
+      senao
+           se (peso>=70) e (peso<=80) entao
+            escreva("recusado por altura;")
+      senao
+           escreva("totalmente recusado;")
+      fimse
+   fimse
+      
+Fimalgoritmo
